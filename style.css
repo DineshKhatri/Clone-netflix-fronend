@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     max-width: 75vw;
-    height: 65px;
+    height: 94px;
     align-items: center;
 }
 
@@ -71,7 +71,7 @@ nav button {
 }
 
 .hero {
-    height: calc(100% - 65px);
+    height: calc(100% - 94px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,10 +188,10 @@ nav button {
 }
 
 .vid2>video {
-    width: 410px;
+    width: 347px;
     position: absolute;
-    top: 58px;
-    left: 117px;
+    top: 45px;
+    left: 107px;
 }
 
 .list {
