@@ -12,8 +12,8 @@ body {
 
 .yolo {
     background-image: url("Images/cover.jpg");
-    background-size: max(1200px, 100vw);
-    height: 80vh;
+    background-size: auto, auto;
+    height: 700px;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -21,7 +21,7 @@ body {
 }
 
 .yolo .din {
-    height: 80vh;
+    height: 700px;
     width: 100%;
     opacity: 0.74;
     background-color: black;
@@ -80,22 +80,24 @@ nav button {
     position: relative;
     gap: 20px;
     padding: 0px 30px;
-    text-align: center;
 }
 
 .hero> :nth-child(1) {
     font-size: 48px;
     font-weight: 800;
     color: white;
+    text-align: center;
 }
 
 .hero> :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
 }
 
 .hero> :nth-child(3) {
     font-size: 20px;
+    text-align: center;
 }
 
 .sparator {
@@ -112,6 +114,7 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .btn-red {
@@ -279,14 +282,83 @@ footer>button {
 }
 
 @media screen and (max-width:1100px) {
-    .cont{
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .yolo {
+        background-size: cover;
+    }
+
+    .cont {
         flex-wrap: wrap;
         text-align: center;
     }
-    .bigtxt{
+
+    .bigtxt {
         font-size: 36px;
     }
-    .smatxt{
+
+    .smatxt {
         font-size: 18px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 36px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .account>input {
+        padding: 13px 65px 16px 14px;
+    }
+
+    .imgvid img {
+        width: 300px;
+    }
+
+    .imgvid video {
+        width: 217px;
+        top: 44px;
+        left: 39px;
+
+    }
+
+    .vid2>video {
+        width: 184px;
+        position: absolute;
+        top: 28px;
+        left: 53px;
+    }
+
+    nav {
+        justify-content: space-around;
+        width: 100vw;
+        margin: auto;
+        max-width: 100%;
+
+
+    }
+
+    nav button {
+        padding: 9px auto;
+    }
+
+    .but {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 88px;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
