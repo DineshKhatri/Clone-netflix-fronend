@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.yolo {
+    background-image: url("Images/cover.jpg");
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.yolo .din {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+    height: 65px;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+    width: 144px;
+}
+
+.but {
+    display: flex;
+    gap: 30px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+
+.but :nth-child(1) {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.but :nth-child(2) {
+    background-color: red;
+}
+
+.hero {
+    height: calc(100% - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+}
+
+.sparator {
+    position: relative;
+    height: 8px;
+    background-color: gray;
+    width: 100%;
+    opacity: 0.35;
+    z-index: 11;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-red {
+    background-color: red;
+    height: 55px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding: 16px 21px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.account>input {
+    padding: 13px 113px 16px 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid gray;
+    font-weight: 600;
+    color: white;
+}
+
+.col {
+    padding: 90px 0px;
+    width: 100%;
+}
+
+.cont {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    color: white;
+    gap: 20px;
+}
+
+.bigtxt {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.smatxt {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imgvid {
+    position: relative;
+}
+
+.imgvid img {
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.imgvid video {
+    width: 401px;
+    position: absolute;
+    top: 89px;
+    left: 74px;
+
+}
+
+.vid2>video {
+    width: 410px;
+    position: absolute;
+    top: 58px;
+    left: 117px;
+}
+
+.list {
+    padding: 25px;
+}
+
+.box1:hover {
+    background-color: #414141;
+}
+
+.box1 {
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    max-width: 70vw;
+    align-items: center;
+    background-color: #2d2d2d;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+
+.box1 svg {
+    filter: invert(1);
+}
+
+.h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.login {
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.login> :first-child {
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 20px;
+}
+
+footer {
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    padding: 34px;
+    font-size: 14px;
+}
+
+.conta {
+    margin: 20px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid a {
+    text-decoration: underline;
+    color: white;
+    pointer-events: none;
+}
+
+.grid-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer>button {
+    margin: 15px auto;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    .cont{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .bigtxt{
+        font-size: 36px;
+    }
+    .smatxt{
+        font-size: 18px;
+    }
+}
