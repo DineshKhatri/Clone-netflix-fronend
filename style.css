@@ -23,7 +23,7 @@ body {
 .yolo .din {
     height: 700px;
     width: 100%;
-    opacity: 0.74;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
@@ -360,5 +360,6 @@ footer>button {
     }
     .grid {
         grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 }
