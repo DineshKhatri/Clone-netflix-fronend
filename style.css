@@ -189,7 +189,7 @@ nav button {
     position: absolute;
     top: 89px;
     left: 74px;
-
+    
 }
 
 .vid2>video {
@@ -217,7 +217,7 @@ nav button {
     background-color: #2d2d2d;
     margin: 10px auto;
     cursor: pointer;
-
+    
 }
 
 .box1 svg {
@@ -288,40 +288,40 @@ footer>button {
         margin: 0;
         padding: 0;
     }
-
+    
     .yolo {
         background-size: cover;
     }
-
+    
     .cont {
         flex-wrap: wrap;
         text-align: center;
     }
-
+    
     .bigtxt {
         font-size: 36px;
     }
-
+    
     .smatxt {
         font-size: 18px;
     }
-
+    
     .hero> :nth-child(1) {
         font-size: 36px;
     }
-
+    
     .hero> :nth-child(2) {
         font-size: 18px;
     }
-
+    
     .hero> :nth-child(3) {
         font-size: 16px;
     }
-
+    
     .account>input {
         padding: 13px 65px 16px 14px;
     }
-
+    
     .imgvid img {
         width: 300px;
     }
@@ -332,21 +332,24 @@ footer>button {
         left: 39px;
 
     }
-
+    
     .vid2>video {
         width: 184px;
         position: absolute;
         top: 28px;
         left: 53px;
     }
-
+    .d1{
+        flex-direction: column-reverse;
+    }
+    
     nav {
         justify-content: space-around;
         width: 100vw;
         margin: auto;
         max-width: 100%;
-
-
+        
+        
     }
 
     nav button {
