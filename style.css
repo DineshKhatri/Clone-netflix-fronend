@@ -125,7 +125,7 @@ nav button {
 .bt-red {
     background-color: red;
     height: 55px;
-    color: white;
+    color: ;
     font-weight: 600;
     text-align: center;
     padding: 15px 19px;
@@ -141,7 +141,7 @@ nav button {
     background-color: rgba(23, 23, 23, 0.5);
     border: 1px solid gray;
     font-weight: 600;
-    color: white;
+    color: var(--color);
 }
 
 .col {
@@ -155,20 +155,20 @@ nav button {
     justify-content: center;
     align-items: center;
     max-width: 80vw;
-    color: white;
+    color: var(--color);
     gap: 20px;
 }
 
 .bigtxt {
     font-size: 48px;
     font-weight: 800;
-    color: white;
+    color: var(--color);
 }
 
 .smatxt {
     font-size: 24px;
     font-weight: 400;
-    color: white;
+    color: var(--color);
 }
 
 .text1 {
@@ -233,7 +233,7 @@ nav button {
 }
 
 .login {
-    color: white;
+    color: var(--color);
     margin: auto;
     text-align: center;
     margin: 50px auto;
@@ -247,7 +247,7 @@ nav button {
 
 footer {
     max-width: 70vw;
-    color: white;
+    color: var(--color);
     margin: auto;
     padding: 34px;
     font-size: 14px;
@@ -264,7 +264,7 @@ footer {
 
 .grid a {
     text-decoration: underline;
-    color: white;
+    color: var(--color);
     pointer-events: none;
 }
 
@@ -279,7 +279,7 @@ footer>button {
     margin: 15px auto;
     background-color: transparent;
     border: 1px solid white;
-    color: white;
+    color: var(--color);
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 5px;
