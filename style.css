@@ -6,6 +6,7 @@
 } 
 ::root{
     --color: white;
+    --color2: white;
 }
 
 body {
@@ -60,13 +61,13 @@ nav button {
     border: none;
     border-radius: 10px;
     text-align: center;
-    color: var(--color);
+    color: white;
     font-weight: 200;
 }
 
 .but :nth-child(1) {
     background-color: transparent;
-    border: 1px solid var(--color);
+    border: 1px solid white;
 }
 
 .but :nth-child(2) {
@@ -125,7 +126,7 @@ nav button {
 .bt-red {
     background-color: red;
     height: 55px;
-    color: var(--color);
+    color: white;
     font-weight: 600;
     text-align: center;
     padding: 15px 19px;
@@ -141,7 +142,7 @@ nav button {
     background-color: rgba(23, 23, 23, 0.5);
     border: 1px solid gray;
     font-weight: 600;
-    color: var(--color);
+    color: white;
 }
 
 .col {
@@ -155,20 +156,20 @@ nav button {
     justify-content: center;
     align-items: center;
     max-width: 80vw;
-    color: var(--color);
+    color: white;
     gap: 20px;
 }
 
 .bigtxt {
     font-size: 48px;
     font-weight: 800;
-    color: var(--color);
+    color: white;
 }
 
 .smatxt {
     font-size: 24px;
     font-weight: 400;
-    color: var(--color);
+    color: white;
 }
 
 .text1 {
@@ -233,7 +234,7 @@ nav button {
 }
 
 .login {
-    color: var(--color);
+    color: white;
     margin: auto;
     text-align: center;
     margin: 50px auto;
@@ -247,7 +248,7 @@ nav button {
 
 footer {
     max-width: 70vw;
-    color: var(--color);
+    color: white;
     margin: auto;
     padding: 34px;
     font-size: 14px;
